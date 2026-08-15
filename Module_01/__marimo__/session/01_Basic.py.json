@@ -1,0 +1,556 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.14",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "f93ec8c4f513c0c70389d332cd43f645",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">In this module, we will use the print function to compile our first text output!</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "de0c1c88c3bb42428be4e81aa85cac6c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Hello World!\nI'm learning Python!\nPython is a versatile language!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "afbc632d1a4efd8304c29dcc09acdcd4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Now, if we want to print the same text in the previous cell, but side by side, then, we can use the following notation at the end!</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "5196ff74d1c24cf5d1f624a23172465e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Hello World! I'm learning Python. Python is a versatile language. ",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "5c3ff1ee5995ec4150509ff89b980821",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Variable Decleration</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "0d9be76e2e679c837456ad13d71f5fcf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[30, 20]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "d950da7cfda8f94cd3cfcd38fe17d5bc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Taking user input</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "7d1bd5c5ed51e1dc04a2f7d92ae1a02a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "e00063ca4336753250a05ea6854ff088",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li>When using input function, the input is taken as a string by default. To convert it to an integer, we use the int() function. If we want to take float input, we can use the float() function and others accordingly.</li>\n<li>To get an expected input, we can use eval() function. For example, if we want to take a list as input, we can use eval(input()).</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "cd8566074e171a26e66d044d4b89fa07",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "5b50cfb50f006e3faf336af8a15f34d5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "34.445 <class 'str'>\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "be645ff6cb0e7a9f29c158a76992e7f6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": " 34.445 7 <class 'str'>\nTrue\n0\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "7aaa81a45411cdf36f2614e341813de8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "20.345  7\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "iLit",
+      "code_hash": "f28edccdcbfa6af55c8f3a7b52ce4ff6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "3.141592653589793 314.159% <class 'float'>\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "RXUC",
+      "code_hash": "2d3fa7feadbaeb44406837867d4f338e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Specifier Format</span>\n<ul>\n<li>'10.2f' ---&gt; floating point number with precision 2 and width 10.</li>\n<li>'&lt;10.2f' ---&gt; Left Justify the floating point number.</li>\n<li>'&gt;10.2f' ---&gt; Right Justify the formatted item.</li>\n<li>'10X' ---&gt; Format integer in hexadecimal with width 10</li>\n<li>'20s' ---&gt; Format String with width 20</li>\n<li>'10.2%' ---&gt; Format the number in decimal</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "f0d3ac8e0c742a954087b5bdc84e1fbd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "       158\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "62586f8fe9bd6b2559e7ef9287299df3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "chara characters\n10\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "HopY",
+      "code_hash": "ddf9fe847b928106267d03a216977c70",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Python in-built function</span>\n<ul>\n<li>ceil(x) ----&gt; Round X to nearest integer and returns that integer.</li>\n<li>floor(x) ----&gt; Returns the largest value not greater than X</li>\n<li>exp(x) ----&gt; Returns the exponential value for e^x</li>\n<li>log(x) ----&gt; Returns the natural logarithmic of x (to base e)</li>\n<li>log(x, base) ----&gt; Returns the logarithm of x to the given base</li>\n<li>sqrt(x) ----&gt; Return the square root of x</li>\n<li>Sin(x) ----&gt; Return the sin of X, where X is the value in radians</li>\n<li>asin(x) ----&gt; Return the angle in radians for the inverse of sine</li>\n<li>cos(x) ----&gt; Return the sin of X, where X is the value in radians</li>\n<li>aCos(x) ----&gt; Return the angle in radians for the inverse of cosine</li>\n<li>tan(x) ----&gt; Return the tangent of X, where X is the value in radians</li>\n<li>degrees(x) ----&gt; Convert angle X from to radians to degrees</li>\n<li>Radians(x) ----&gt; Convert angle X from to radians to degrees</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "01450f8aeb6c3592962e78678a77b50a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "11\n10\n7.38905609893065\n7.389\n0.9932517730102834\n0\n1\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "LPGj",
+      "code_hash": "369d53568c64d4a746ebaeecd724e299",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">ord and chr functions</span>\n<ul>\n<li>\"ord\" return the ASCII value of a character</li>\n<li>\"chr\" return the character of ASCII value</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "502e20c4fe233b03db7427a1aeb82683",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "interruption",
+          "evalue": "This cell was interrupted and needs to be re-run",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "tJZn",
+      "code_hash": "ea855ef8abdd282794a7ae1f53f5be2c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Summary</span>\n<ol>\n<li>Python breaks each statement into a sequence of lexical components called tokens.</li>\n<li>Literals are numbers, strings or characters that appear directly in a program.</li>\n<li>Python offers an inbuilt method called type to know the exact type of any value.</li>\n<li>Keywords are reserved words.</li>\n<li>Keywords cannot be used as identifiers or variables. An identifier is a name used to identify a variable, function, class or other objects.</li>\n<li>Everything in Python is an object.</li>\n<li>The int function converts a string or a number into a whole number or integer.</li>\n<li>The float function converts a string into a floating-point number.</li>\n<li>The Boolean data type is represented in Python as of type bool.</li>\n<li>print function is used to display contents on the screen.</li>\n<li>input() function is used to accept input from the user.</li>\n<li>format() function can be used to return a formatted string.</li>\n<li>Python Tokens: keywords, identifiers/Variables, Operators, Delimiters, literals</li>\n<li>Integer Literal: 18, Floating Point Literal: 21.98, \"Q\" : Character literal, \"Hello\": String Literal</li>\n<li>keywords: and, as, assert, break, class, continue, def, del, elif, else, except, False, finally, for, from, global, if, import, in, is, lambda, None, nonlocal, not, or, pass, raise, return,\nTrue, try, while, with, yield</li>\n<li>Operators: \"+ - * / // % ** ---&gt; Arithmetic Operator\" \"== != &lt;&gt; &lt;= &gt;= ---&gt; Relational Operator\" \"and not or ---&gt; Logical Operator\" \"&amp; | ~ ^ &lt;&lt; &gt;&gt; ---&gt; Bitwise Operator\"</li>\n<li>Delimiter: Delimiters are symbols that perform a special role in Python like grouping, punctuation and assignment. Python uses the following symbols and symbol combinations as delimiters. ( ) [ ] { } , : . \u2018 = ; += -= <em>= /= //= %= &amp;= |= ^= &gt;&gt;= &lt;&lt;= </em>*=</li>\n<li>Identifier: \u2022 Is a sequence of characters that consists of letters, digits and underscore \u2022 Can be of any length \u2022 Starts with a letter which can be either lower or upper case \u2022 Can start with an underscore \u2018_\u2019 \u2022 Cannot start with a digit \u2022 Cannot be a keyword. Some examples of valid identifiers are Name, Roll_NO, A1, _Address etc.</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "2ff9d5ea87d758fa3ae39c5d34dceff1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Tokens and Language Structure</span>\n<span class=\"paragraph\">Python operates by breaking down your code into <strong>tokens</strong> - the smallest meaningful units of the language. Think of tokens as the \"words\" in Python's vocabulary. These tokens fall into five main categories: keywords, identifiers/variables, operators, delimiters, and literals. Understanding this tokenization process helps explain how Python interprets and executes your code.</span>\n<span class=\"paragraph\">Literals and Data Types</span>\n<span class=\"paragraph\"><strong>Literals</strong> are the actual values you write directly in your code - like the number <code>18</code>, the decimal <code>21.98</code>, or the string <code>\"Hello\"</code>. Python provides built-in functions to work with different data types: <code>int()</code> converts values to whole numbers, <code>float()</code> handles decimal numbers, and <code>bool</code> represents True/False values. The <code>type()</code> function is particularly useful for debugging, as it tells you exactly what kind of data you're working with.</span>\n<span class=\"paragraph\">Keywords and Identifiers</span>\n<span class=\"paragraph\"><strong>Keywords</strong> are Python's reserved words that have special meanings - like <code>if</code>, <code>for</code>, <code>def</code>, <code>class</code>, and <code>return</code>. These cannot be used as variable names because they're part of Python's core syntax. <strong>Identifiers</strong>, on the other hand, are the names you create for variables, functions, and classes. They must start with a letter or underscore, can contain letters, digits, and underscores, but cannot start with a digit or be a keyword.</span>\n<span class=\"paragraph\">Operators and Delimiters</span>\n<span class=\"paragraph\">Python includes various <strong>operators</strong> for different operations: arithmetic operators (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>) for math, relational operators (<code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>) for comparisons, logical operators (<code>and</code>, <code>or</code>, <code>not</code>) for boolean logic, and bitwise operators for low-level operations. <strong>Delimiters</strong> are the punctuation marks that structure your code - parentheses for function calls, brackets for lists, braces for dictionaries, and various assignment operators like <code>+=</code> and <code>-=</code>.</span>\n<span class=\"paragraph\">Core Functions</span>\n<span class=\"paragraph\">Essential built-in functions: <code>print()</code> displays output to the screen, <code>input()</code> accepts user input as strings, and <code>format()</code> creates formatted strings. These functions form the foundation for user interaction in Python programs.</span>\n<span class=\"paragraph\">Everything is an Object</span>\n<span class=\"paragraph\">A crucial concept mentioned is that \"everything in Python is an object.\" This means that numbers, strings, functions, and even data types themselves are objects with methods and attributes. This object-oriented nature makes Python flexible and powerful, allowing you to treat different types of data in consistent ways.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "e6d6528673643d92a13c7cf0149c4ff0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "15 5 10\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "c3396006b89d63b061f2313862427c2f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Name: abcd | Age: 10 | Height: 5.8\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "dbeb8f66850158d168a3259885753d87",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Product: Laptop          | Price: $ 1234.57 | Quantity:   5\nProduct: Laptop          | Price: $ 1234.57 | Quantity:   5\nTotal: $6172.84\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "81c27165c36d34f495e50808b7a90df5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Decimal: 255 | Binary: 11111111 | Octal: 377 | Hexadecimal: FF\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "26329d99605370ee3843d49f64af707b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Character: A | ASCII code: 65\nCharacter: B | ASCII code: 66\nCharacter: C | ASCII code: 67\nCharacter: D | ASCII code: 68\nCharacter: E | ASCII code: 69\nCharacter: F | ASCII code: 70\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "1e7aa9a672271c24427292c640aa1798",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Character: A | ASCII code: 65\nCharacter: B | ASCII code: 66\nCharacter: C | ASCII code: 67\nCharacter: D | ASCII code: 68\nCharacter: E | ASCII code: 69\nCharacter: F | ASCII code: 70\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "34f6e9d73dc2ccf9c7ecd8f03a2231a0",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "interruption",
+          "evalue": "This cell was interrupted and needs to be re-run",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Enter a city name:  \n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_27014/__marimo__cell_NCOB_.py&quot;</span>, line <span class=\"m\">6</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">city</span> <span class=\"o\">=</span> <span class=\"nb\">input</span><span class=\"p\">(</span><span class=\"s2\">&quot;Enter a city name: &quot;</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/home/azmi/abdullah_al_azmi/.venv/lib/python3.11/site-packages/marimo/_runtime/input_override.py&quot;</span>, line <span class=\"m\">12</span>, in <span class=\"n\">input_override</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"n\">sys</span><span class=\"o\">.</span><span class=\"n\">stdin</span><span class=\"o\">.</span><span class=\"n\">_readline_with_prompt</span><span class=\"p\">(</span><span class=\"n\">prompt</span><span class=\"p\">)</span>  <span class=\"c1\"># type: ignore[attr-defined, no-any-return, union-attr]</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/home/azmi/abdullah_al_azmi/.venv/lib/python3.11/site-packages/marimo/_messaging/streams.py&quot;</span>, line <span class=\"m\">479</span>, in <span class=\"n\">_readline_with_prompt</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_stream</span><span class=\"o\">.</span><span class=\"n\">input_queue</span><span class=\"o\">.</span><span class=\"n\">get</span><span class=\"p\">()</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.11/multiprocessing/queues.py&quot;</span>, line <span class=\"m\">103</span>, in <span class=\"n\">get</span>\n<span class=\"w\">    </span><span class=\"n\">res</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_recv_bytes</span><span class=\"p\">()</span>\n<span class=\"w\">          </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.11/multiprocessing/connection.py&quot;</span>, line <span class=\"m\">216</span>, in <span class=\"n\">recv_bytes</span>\n<span class=\"w\">    </span><span class=\"n\">buf</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_recv_bytes</span><span class=\"p\">(</span><span class=\"n\">maxlength</span><span class=\"p\">)</span>\n<span class=\"w\">          </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.11/multiprocessing/connection.py&quot;</span>, line <span class=\"m\">430</span>, in <span class=\"n\">_recv_bytes</span>\n<span class=\"w\">    </span><span class=\"n\">buf</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_recv</span><span class=\"p\">(</span><span class=\"mi\">4</span><span class=\"p\">)</span>\n<span class=\"w\">          </span><span class=\"pm\">^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/usr/lib/python3.11/multiprocessing/connection.py&quot;</span>, line <span class=\"m\">395</span>, in <span class=\"n\">_recv</span>\n<span class=\"w\">    </span><span class=\"n\">chunk</span> <span class=\"o\">=</span> <span class=\"n\">read</span><span class=\"p\">(</span><span class=\"n\">handle</span><span class=\"p\">,</span> <span class=\"n\">remaining</span><span class=\"p\">)</span>\n<span class=\"w\">            </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/home/azmi/abdullah_al_azmi/.venv/lib/python3.11/site-packages/marimo/_runtime/handlers.py&quot;</span>, line <span class=\"m\">72</span>, in <span class=\"n\">interrupt_handler</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"n\">MarimoInterrupt</span>\n<span class=\"gr\">KeyboardInterrupt</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "e212171b1cc7cced184497efdc4e2b52",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "interruption",
+          "evalue": "This cell was interrupted and needs to be re-run",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "79e176709347db49fa7284651a1b8054",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "interruption",
+          "evalue": "This cell was interrupted and needs to be re-run",
+          "traceback": []
+        }
+      ],
+      "console": []
+    }
+  ]
+}

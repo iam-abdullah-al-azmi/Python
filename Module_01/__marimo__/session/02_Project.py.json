@@ -1,0 +1,221 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.14",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "eXah",
+      "code_hash": "28d8fe032c9c95ecac23e6e91cf68f4c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "HOpQ",
+      "code_hash": "f2c783f7f6f30fe579b643090a627eb5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ol>\n<li>Calculating the area of a circle</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "4b54626f12cd8c85fc3399e4c3ccd58a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Enter the radius of the circle:  10\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "GsMI",
+      "code_hash": "fbe6bd91da6f61c5ed6219ba47070873",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Radius of the circle: 10 | Area: 314.1592653589793 | Data Type: True\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "QkpF",
+      "code_hash": "a526e547ff6a677f8f3840b523c69fab",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Simple calculator</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "jwDt",
+      "code_hash": "3dfe8d1621f3973c363dc02af8b7f6ab",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Enter the first number:  15\nEnter the second number:  59\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "SWtZ",
+      "code_hash": "fe9aa5a7f3bf5c00f26662ccc638c8de",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Which operation you want? | (1) Addition | (2) Subtraction | (3) Multiplication | (4) Division\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "fzbd",
+      "code_hash": "1170b1f4669db6e18ccea9b2b4734961",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Give your choice:  1\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "b54bd79dea144d7b67a5ede24b62c505",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "First number is: 15 | Second number is: 59 | Addition: 74\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "FEnJ",
+      "code_hash": "f704575234684d4940dc9203b2951b17",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Simple prime number checker</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bNEV",
+      "code_hash": "29979083b3e1ac61ac58dab50090d3d1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Enter a number:  59\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "vblA",
+      "code_hash": "bf6bad25c7537a0c6af51fcc5d9e32d1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "59 is a prime number\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
