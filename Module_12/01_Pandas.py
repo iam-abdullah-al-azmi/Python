@@ -16,15 +16,17 @@ app = marimo.App(width="full")
 
 @app.cell
 def _():
-    import pandas as pd
-    import numpy as np
     from pathlib import Path
+
+    import numpy as np
+    import pandas as pd
+
     return Path, np, pd
 
 
 @app.cell
 def _(Path, pd):
-    filepath = Path('./student_data.csv')
+    filepath = Path("./student_data.csv")
     df = pd.read_csv(filepath)
     df
     return (df,)
@@ -103,13 +105,13 @@ def _(df):
 
 @app.cell
 def _(df):
-    df['FullName']
+    df["FullName"]
     return
 
 
 @app.cell
 def _(df):
-    print(type(df['FullName']))
+    print(type(df["FullName"]))
     return
 
 
@@ -147,7 +149,7 @@ def _(df):
 def _(df):
     # single column
 
-    df.loc[:, ['Python Marks']]
+    df.loc[:, ["Python Marks"]]
     return
 
 
@@ -155,7 +157,7 @@ def _(df):
 def _(df):
     # Multiple Column
 
-    df.loc[:, ['Python Marks', 'Algorithm Marks']]
+    df.loc[:, ["Python Marks", "Algorithm Marks"]]
     return
 
 
@@ -163,7 +165,7 @@ def _(df):
 def _(df):
     # Row with Column
 
-    df.loc[3:7, ['CompletionStatus']]
+    df.loc[3:7, ["CompletionStatus"]]
     return
 
 

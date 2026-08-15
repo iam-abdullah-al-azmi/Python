@@ -100,7 +100,7 @@ def _(df):
 
 @app.cell
 def _():
-    # 
+    #
     return
 
 
