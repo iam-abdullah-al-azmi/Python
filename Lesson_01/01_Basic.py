@@ -326,9 +326,7 @@ def _():
     product = "Laptop"
     quantity = 5
 
-    print(
-        f"Product: {product:<15} | Price: ${price:>8.2f} | Quantity: {quantity:>3}"
-    )
+    print(f"Product: {product:<15} | Price: ${price:>8.2f} | Quantity: {quantity:>3}")
     print(
         "Product: {:<15} | Price: ${:>8.2f} | Quantity: {:>3}".format(
             product, price, quantity
