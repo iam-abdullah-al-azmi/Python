@@ -1,6 +1,6 @@
 # :books: Python Programming Language Handbook
 
-Hi! :wave:, Hope you are doing well :love: . And, Welcome to our Python Programming Language Handbook.
+Hi! :wave:, Hope you are doing well :heart:. And, Welcome to our Python Programming Language Handbook.
 
 ---
 
