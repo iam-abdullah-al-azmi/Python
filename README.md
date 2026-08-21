@@ -1,10 +1,10 @@
 # :books: Python Programming Language Handbook
 
-Hi! Hope you are doing well, and welcome to the Python Programming Language Handbook.
+Hi! :wave:, Hope you are doing well :love:.
 
 ---
 
-This repository contains the resources for learning Python programming language, especially, for those who want self learn. Instead of using regular Python file, there, a notebook, alternative to Jupyter Notebook one, marimo, has been used. That's why the repository teaches one, how to get started with Python along side using new Python notebook.
+Welcome to our Python Programming Language Handbook. This repository contains the resources for learning Python programming language, especially, for those who want self learn. Instead of using regular Python file, there, a notebook, alternative to Jupyter Notebook one, marimo, has been used. That's why the repository teaches one, how to get started with Python along side using new Python notebook.
 
 ---
 
