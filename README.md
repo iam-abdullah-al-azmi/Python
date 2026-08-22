@@ -1,47 +1,25 @@
-# :books: Python Programming Language Handbook
-
-Hi! :wave:, Hope you are doing well :heart:. And, Welcome to our Python Programming Language Handbook.
+# Python Programming Language Handbook
 
 ---
 
-This repository contains the resources for learning Python programming language, especially, for those who want self learn. Instead of using regular Python file, there, a notebook, alternative to Jupyter Notebook one, marimo, has been used. That's why the repository teaches one, how to get started with Python along side using new Python notebook.
+## Overview
 
----
-
-Before getting started, please make sure you have Python installed, along with it's package manager, Pip. Since, I will be using Ubuntu (Linux Operating System), please find the resources from internet on how to install both of them in Windows.
+Hi, Hope you are doing well! And, welcome to the _Python Programming Language Handbook_. This repository contains the resources for Python programming language, especially, those who want to self learn. Instead of using regular Python files, there, [marimo](https://marimo.io/) notebooks have been used. This is an excellent Python notebook, alternative to Jupyter Notebook one. So, along with Python programming language, the repository also teaches how to get started with marimo notebooks.
 
 ---
 
 ## Table of Contents
 
-- [Python Programming Language Handbook](#python-programming-language-handbook)
-    - [Virtual Environment](#virtual-environment)
-    - [Lessons](#lessons)
+- [**Installation**](docs/installation.md)
 
----
-
-## Virtual Environment
-
-Now, follow the steps to create and activate the virtual environment in Ubuntu. Same thing for this one, please interent for the Windows.
-
-- First, create a virtual environment using `python3.12 -m venv .venv`
-- Then, activate it using `.venv/bin/activate`
-- Lastly, run `pip install -r requirements.txt` to install all the required packages.
-
----
-
-## Lessons
-
-So far, the resources of this course have been organized as follows:
-
-- **Lesson_01**:
-    - [01_Print_Function_and_Variables.py](Lesson_01/01_Print_Function_and_Variables.py)
-    - [02_User_Input_and_Formatting.py](Lesson_01/02_User_Input_and_Formatting.py)
-    - [03_Python_Builtin_Functions.py](Lesson_01/03_Python_Builtin_Functions.py)
-    - [04_Excercise.py](Lesson_01/04_Excercise.py)
-    - [05_Project/01_Area_of_Circle.py](Lesson_01/05_Project/01_Area_of_Circle.py)
-    - [05_Project/02_Simple_Calculator.py](Lesson_01/05_Project/02_Simple_Calculator.py)
-    - [05_Project/03_Simple_Prime_Number_Checker.py](Lesson_01/05_Project/03_Simple_Prime_Number_Checker.py)
+- **Lesson 01**:
+    - [Print Function and Variables](Lesson_01/01_Print_Function_and_Variables.py)
+    - [User Input and Formatting](Lesson_01/02_User_Input_and_Formatting.py)
+    - [Python Builtin Functions](Lesson_01/03_Python_Builtin_Functions.py)
+    - [Excercise](Lesson_01/04_Excercise.py)
+    - [Area of Circle](Lesson_01/05_Project/01_Area_of_Circle.py)
+    - [Simple Calculator](Lesson_01/05_Project/02_Simple_Calculator.py)
+    - [Simple Prime Number Checker](Lesson_01/05_Project/03_Simple_Prime_Number_Checker.py)
 
 - **Lesson_02**:
     - [01_Basic.py](Lesson_02/01_Basic.py)
@@ -103,13 +81,3 @@ So far, the resources of this course have been organized as follows:
 - **Lesson_15**
     - 01_Seaborn.py
     - 02_Plotly.py
-
----
-
-Note: To run the notebooks, after activating the virtual environment, run `marimo run name_of_notebook.py`. For example, to run first notebook in Lesson_01, run `marimo run Lesson_01/01_Basic.py`.
-
----
-
-## References
-
-The organization of this [README.md](README.md) file was inspired by [The-Ultimate-C-Programming-Course](https://github.com/CodeWithHarry/The-Ultimate-C-Programming-Course/blob/main/README.md?plain=1)
